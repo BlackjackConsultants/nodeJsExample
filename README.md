@@ -9,6 +9,18 @@ This is a node js Rest Api example.
 ```
 npm init
 ```
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This creates a file called **package.json**.
+```
+{
+  "name": "nodejsexample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+}
+```
+
 4. Answer all questions.
 1. To install express type:
 ```
