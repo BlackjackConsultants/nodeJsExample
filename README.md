@@ -1,6 +1,35 @@
 # Node Example
 This is a node js Rest Api example.
 
+## Creating a node.js application.
+
+1. Create a new folder in your computer.
+1. Open the command prompt.
+1. Go to that folder and type:
+```
+npm init
+```
+4. Answer all questions.
+1. To install express type:
+```
+$ npm install express --save
+```
+6. Add the code to handle route calls.
+```
+app.get('/', (req, res) => {
+    res.send('Hello World');
+})
+
+app.get('/api/courses', (req, res) => {
+    res.send([1, 2, 3]);
+})
+``` 
+1. Now add the code to listen for client requests.
+```
+app.listen(3000, () => {
+    console.log(`listing on port ${3000}`);
+})
+   ```
 ## Running application
 type the following
 ```
