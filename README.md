@@ -43,6 +43,13 @@ app.listen(3000, () => {
 })
    ```
 ## Running application
+To run the application add the following code to the "scripts" section under main in package.json file:
+```
+  "main": "index.js",
+  "scripts": {
+    "serve": "node index.js"
+  },
+```
 type the following
 ```
 npm run serve
@@ -50,4 +57,8 @@ npm run serve
 
 ## The Entry Point
 The entrypoint file is the **index.js** which starts the express web server and starts to listen to client request on port 3000.
+
+
+## About
+This is a sample was produced by [Blackjack Consultants](https://blackjackconsultants.com)
 
