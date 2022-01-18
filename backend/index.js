@@ -1,8 +1,21 @@
 const express = require('express');
 const app = express();
+const cors = require('cors');
+
+app.use(cors());
 
 app.get('/', (req, res) => {
-    res.send('Hello World');
+    let items = [
+        {
+            id: 1,
+            name: 'Jorge'
+        },
+        {
+            id: 2,
+            name: 'Adrian'
+        }
+    ];
+    res.send(items);
 })
 
 app.get('/api/courses', (req, res) => {
