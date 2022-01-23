@@ -58,7 +58,12 @@ npm run serve
 ## The Entry Point
 The entrypoint file is the **index.js** which starts the express web server and starts to listen to client request on port 3000.
 
-
+## Debugging app
+### Backend
+1. place breakpoint using vscode.
+1. go to debug and run.
+1. click run icon.
+   
 ## About
 This is a sample was produced by [Blackjack Consultants](https://blackjackconsultants.com)
 
